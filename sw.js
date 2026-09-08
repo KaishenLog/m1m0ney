@@ -1,5 +1,5 @@
 /* M1M0NEY — service worker: la app entera cabe en la cache, asi funciona sin conexion. */
-const CACHE = "m1m0ney-v5";
+const CACHE = "m1m0ney-v6";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon-180.png", "./icon-192.png", "./icon-512.png", "./icon-maskable-512.png", "./favicon-64.png"];
 
 self.addEventListener("install", (e) => {
